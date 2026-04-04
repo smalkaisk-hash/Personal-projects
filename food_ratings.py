@@ -1,6 +1,6 @@
 # Write code below 💖
 
-rating = 3.2#Rating between zero stars and fine. Assign decimal number between 0 and 5
+rating = 3.2 #Rating between zero stars and fine. Assign decimal number between 0 and 5
 
 if rating > 4.5:
   print('Perfection')
