@@ -1,6 +1,5 @@
 
-from random import random
-
+import random
 
 num = random.randint(1, 6)   # Roll a random number that's either 1 or 6
 
