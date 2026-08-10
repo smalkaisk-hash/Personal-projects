@@ -1,25 +1,24 @@
-# Write code below 💖
+# Fortune Cookie 🥠
+# Codédex
 
 import random
 
+options = [
+  'Don’t pursue happiness – create it.',
+  'All things are difficult before they are easy.',
+  'The early bird gets the worm, but the second mouse gets the cheese.',
+  'If you eat something and nobody sees you eat it, it has no calories.',
+  'Someone in your life needs a letter from you.',
+  'Don’t just think. Act!',
+  'Your heart will skip a beat.',
+  'The fortune you search for is in another cookie.',
+  'Help! I’m being held prisoner in a Chinese bakery!'
+]
+
 def fortune():
-  random_fortune = random.randint(0, 7)
+  random_fortune = random.randint(0, len(options) - 1)
+  print(options[random_fortune])
 
-if random.randint == 1:
-  answer = 'Yes - definitely'
-elif random.randint == 2:
-  answer = 'It is decidedly so'
-elif random.randint == 3:
-  answer = 'Without a doubt'
-elif random.randint == 4:
-  answer = 'Reply hazy, try again'
-elif random.randint == 5:
-  answer = 'Ask again later'
-elif random.randint == 6:
-  answer = 'Better not tell you now'
-elif random.randint == 7:
-  answer = 'My sources say no'
-
-
-
-fortune()print('Your fortune is: ' + answer)
+fortune()
+fortune()
+fortune()
